@@ -4,9 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FancyProgressSteps"
+        xmlns:kjp="clr-namespace:kjp"
+
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel>
+            <kjp:FancyProgressSteps x:Name="Fancy" Margin="100,50" Grid.Row="0"></kjp:FancyProgressSteps>
+            <Button MaxWidth="150" Click="ClickNext">Click for Next Step</Button>
+        </StackPanel>
+        
 
     </Grid>
 </Window>

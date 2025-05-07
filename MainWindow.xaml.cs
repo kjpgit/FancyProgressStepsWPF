@@ -20,4 +20,9 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void ClickNext(object sender, RoutedEventArgs e)
+    {
+        Fancy.Bump();
+    }
 }
